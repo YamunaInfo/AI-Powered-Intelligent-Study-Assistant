@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AI Study Assistant</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h1>AI Study Assistant</h1>
+
+<form action="/upload" method="post" enctype="multipart/form-data">
+<input type="file" name="file">
+<button type="submit">Upload Notes</button>
+</form>
+
+<h2>Summary</h2>
+<p>{{summary}}</p>
+
+<h2>Keywords</h2>
+<p>{{keywords}}</p>
+
+<h2>Question</h2>
+<p>{{questions}}</p>
+
+<h2>Answer the Question</h2>
+<form action="/check_answer" method="post">
+<input type="text" name="answer" placeholder="Type your answer">
+<button type="submit">Submit</button>
+</form>
+
+<h2>Concept Gap Result</h2>
+<p>{{result}}</p>
+
+<audio controls>
+<source src="{{voice}}" type="audio/mp3">
+</audio>
+
+</body>
+</html>
