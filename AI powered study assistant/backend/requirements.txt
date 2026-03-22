@@ -1,0 +1,7 @@
+Flask
+flask-cors
+transformers
+sentence-transformers
+nltk
+pypdf
+mysql-connector-python
