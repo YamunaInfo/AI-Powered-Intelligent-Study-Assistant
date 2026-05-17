@@ -47,7 +47,7 @@ Python 3.x
 MySQL Server
 pip package manager
 Step 1: Clone the Repository
-git clone https://github.com/your-username/ai-study-assistant.git
+git clone https://github.com/YamunaInfo/ai-study-assistant.git
 cd ai-study-assistant
 Step 2: Install Required Packages
 pip install -r requirements.txt
@@ -66,28 +66,7 @@ Step 5: Open the Application
 Open your browser and visit:
 
 http://localhost:5000
-Project Structure 📂
-AI-Study-Assistant/
-│
-├── frontend/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-│
-├── backend/
-│   ├── app.py
-│   ├── models.py
-│   ├── routes.py
-│   └── utils.py
-│
-├── database/
-│   └── study_assistant.sql
-│
-├── uploads/
-│
-├── requirements.txt
-│
-└── README.md
+
 Future Enhancements 🚀
 🎤 Voice-based interaction
 🌐 Multi-language support
@@ -113,8 +92,7 @@ The AI-Based Study Assistant is a smart educational platform that improves the w
 Authors 👨‍💻
 
 Developed by:
-
-Your Name
+Yamuna D
 License 📜
 
 This project is licensed under the MIT License.
